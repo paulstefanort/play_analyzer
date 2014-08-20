@@ -24,3 +24,5 @@ end
 group :test do
   gem 'capybara-rails'
 end
+
+gem 'rails_12factor', group: :production
