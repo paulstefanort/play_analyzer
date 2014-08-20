@@ -9,6 +9,7 @@ gem 'turbolinks'
 gem 'bootstrap-sass'
 gem 'jbuilder', '~> 2.0'
 gem 'spring', group: :development
+gem 'nokogiri'
 
 group :development, :test do
   gem 'spring-commands-rspec'

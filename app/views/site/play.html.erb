@@ -1,0 +1,8 @@
+<h1><%= @play[:title] %></h1>
+<table>
+  <tbody>
+    <% @speakers.each do |speaker| %>
+    <tr><td><%= speaker[:lines] %></td><td><%= speaker[:name] %></td></tr>
+    <% end %>
+  </tbody>
+</table>

@@ -1,6 +1,5 @@
 <ul data-list="plays">
-  <li>Plays</li>
-  <li>Will</li>
-  <li>Go</li>
-  <li>Here</li>
+  <% @plays.each do |play| %>
+    <li><a href="/<%= play[:slug] %>"><%= play[:title] %></a></li>
+  <% end %>
 </ul>
