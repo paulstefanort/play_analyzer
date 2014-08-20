@@ -1,5 +1,7 @@
-<ul data-list="plays">
-  <% @plays.each do |play| %>
-    <li><a href="/<%= play[:slug] %>"><%= play[:title] %></a></li>
-  <% end %>
-</ul>
+<div class="row">
+  <div class="col-md-3">
+    <%= render 'sidebar' %>
+  </div>
+  <div class="col-md-9">
+  </div>
+</div>

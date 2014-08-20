@@ -1,0 +1,5 @@
+<ul class="nav nav-pills nav-stacked" data-list="plays">
+  <% @plays.each do |play| %>
+    <li<% if @play and @play[:slug] == play[:slug] %> class="active"<% end %>><a href="/<%= play[:slug] %>"><%= play[:title] %></a></li>
+  <% end %>
+</ul>
