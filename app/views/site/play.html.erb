@@ -5,6 +5,10 @@
   <div class="col-md-9">
     <h2 class="page-header"><%= @play[:title] %></h2>
     <table class="table table-striped">
+      <thead>
+        <th>Speaker</th>
+        <th># Lines</th>
+      </thead>
       <tbody>
         <% @speakers.each do |speaker| %>
         <tr><td><%= speaker[:lines] %></td><td><%= speaker[:name] %></td></tr>
